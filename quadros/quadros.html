@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>      
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Inicial</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="/index.html" class="logo"></a>
+        
+        <nav>
+            <a href="/quadros/quadros.html" class="link-quadros">Quadros</a>
+            <a href="/quebra-cabeça/quebra-cabeca.html">Quebra-cabeças</a>
+            <a href="/jarros/jarros.html">Jarros</a>
+            <a href="/estátuas/estatuas.html">Estátuas</a>
+        </nav>
+
+        <div class="search">
+            <input type="text" placeholder="Pesquisar...">
+        </div>
+
+        <div class="icons">
+            <a href="/suporte/suporte.html" style="color: #58a6ff;">Precisa de ajuda?</a>
+            <div class="icon" onclick="logar()"><i class="fas fa-shopping-cart"></i></div>
+
+            <div class="profile-dropdown">
+                <div class="icon profile-icon"><i class="fas fa-user"></i></div>
+
+                <div class="dropdown-content">
+                    <a href="/login/login.html">Entrar</a>
+                    <a href="#">Registre-se</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- Ofertas do dia -->
+    <h2>Ofertas do dia</h2>
+
+    <div class="product-container">
+        <div class="product">
+            <img src="/quadros/assets/images/img 1.jpg" alt="Produto 1">
+            <p><strong>Nome do Produto 1</strong></p>
+            <p style="color: green;">R$ 19,99</p>
+        </div>
+
+        <div class="product">
+            <img src="/quadros/assets/images/img 2.jpg" alt="Produto 2">
+            <p><strong>Produto 2</strong></p>
+            <p style="color: rgb(0, 194, 0);">R$ 19,99</p>
+        </div>
+
+        <div class="product">
+            <img src="/quadros/assets/images/img 3.png" alt="Produto 3">
+            <p><strong>Nome do Produto 3</strong></p>
+            <p style="color: green;">R$ 19,99</p>
+        </div>
+
+        <div class="product">
+            <img src="/quadros/assets/images/img 1.jpg" alt="Produto 3">
+            <p><strong>Nome do Produto 4</strong></p>
+            <p style="color: green;">R$ 19,99</p>
+        </div>
+
+        <div class="product">
+            <img src="/quadros/assets/images/img 1.jpg" alt="Produto 3">
+            <p><strong>Nome do Produto 5</strong></p>
+            <p style="color: green;">R$ 19,99</p>
+        </div>
+
+        <div class="product">
+            <img src="/quadros/assets/images/img 1.jpg" alt="Produto 3">
+            <p><strong>Nome do Produto 6</strong></p>
+            <p style="color: green;">R$ 19,99</p>
+        </div>
+
+        <div class="product">
+            <img src="/quadros/assets/images/img 1.jpg" alt="Produto 3">
+            <p><strong>Nome do Produto 7</strong></p>
+            <p style="color: green;">R$ 19,99</p>
+        </div>
+
+    <!-- fim da div container -->
+
+    <button class="next-item"><i class="fas fa-arrow-right"></i></button>
+    
+    </div>
+    <!-- Mais vendidos -->
+    <h2>Mais vendidos</h2>
+    
+    <div class="product-container">
+        <div class="product">
+            <img src="/quadros/assets/images/img 1.jpg" alt="Produto 1">
+            <p><strong>Nome do Produto 1</strong></p>
+            <p style="color: green;">R$ 19,99</p>
+        </div>
+
+        <div class="product">
+            <img src="/quadros/assets/images/img 2.jpg" alt="Produto 2">
+            <p><strong>Nome do Produto 2</strong></p>
+            <p>R$ 29,99</p>
+        </div>
+
+        <div class="product">
+            <img src="/quadros/assets/images/img 3.png" alt="Produto 3">
+            <p><strong>Nome do Produto 3</strong></p>
+            <p>R$ 39,99</p>
+        </div>
+
+        <div class="product">
+            <img src="/quadros/assets/images/img 1.jpg" alt="Produto 3">
+            <p><strong>Nome do Produto 4</strong></p>
+            <p>R$ 39,99</p>
+        </div>
+
+        <div class="product">
+            <img src="/quadros/assets/images/img 1.jpg" alt="Produto 3">
+            <p><strong>Nome do Produto 5</strong></p>
+            <p>R$ 39,99</p>
+        </div>
+
+        <div class="product">
+            <img src="/quadros/assets/images/img 1.jpg" alt="Produto 3">
+            <p><strong>Nome do Produto 6</strong></p>
+            <p>R$ 39,99</p>
+        </div>
+
+        <div class="product">
+            <img src="/quadros/assets/images/img 1.jpg" alt="Produto 3">
+            <p><strong>Nome do Produto 7</strong></p>
+            <p>R$ 39,99</p>
+        </div>
+    <!-- fim da div container -->
+    </div>
+
+    <!-- Melhores classificados -->
+    <h2>Melhores classificados</h2>
+    
+    <div class="product-container">
+        <div class="product">
+            <img src="/quadros/assets/images/img 1.jpg" alt="Produto 1">
+            <p><strong>Nome do Produto 1</strong></p>
+            <p style="color: green;">R$ 19,99</p>
+        </div>
+
+        <div class="product">
+            <img src="/quadros/assets/images/img 2.jpg" alt="Produto 2">
+            <p><strong>Nome do Produto 2</strong></p>
+            <p>R$ 29,99</p>
+        </div>
+
+        <div class="product">
+            <img src="/quadros/assets/images/img 3.png" alt="Produto 3">
+            <p><strong>Nome do Produto 3</strong></p>
+            <p>R$ 39,99</p>
+        </div>
+
+        <div class="product">
+            <img src="/quadros/assets/images/img 1.jpg" alt="Produto 3">
+            <p><strong>Nome do Produto 4</strong></p>
+            <p>R$ 39,99</p>
+        </div>
+
+        <div class="product">
+            <img src="/quadros/assets/images/img 1.jpg" alt="Produto 3">
+            <p><strong>Nome do Produto 5</strong></p>
+            <p>R$ 39,99</p>
+        </div>
+
+        <div class="product">
+            <img src="/quadros/assets/images/img 1.jpg" alt="Produto 3">
+            <p><strong>Nome do Produto 6</strong></p>
+            <p>R$ 39,99</p>
+        </div>
+
+        <div class="product">
+            <img src="/quadros/assets/images/img 1.jpg" alt="Produto 3">
+            <p><strong>Nome do Produto 7</strong></p>
+            <p>R$ 39,99</p>
+        </div>
+    <!-- fim da div container -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
